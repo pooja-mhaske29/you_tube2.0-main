@@ -1,0 +1,23 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Build
+.next/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Uploads (large files)
+uploads/
+*.mp4
+*.mov
